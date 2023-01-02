@@ -1,0 +1,44 @@
+baseURL = 'https://www.sarahblommaert.com'
+languageCode = 'en-us'
+title = 'Sarah Blommaert'
+theme = 'anatole'
+readMore = true
+shownavbar = true
+
+[params]
+author = "Sarah Blommaert-Kassem"
+description = "Entrepreneur|Cryptocurrency Enthusiast|Financial Freedom"
+profilePicture = "/images/me.png"
+
+[[params.socialIcons]]
+icon = "fab fa-linkedin"
+title = "Linkedin"
+url = "https://www.linkedin.com/in/sarah-blommaert-kassem/"
+[[params.socialIcons]]
+icon = "fa-sharp fa-solid fa-at"
+title = "e-mail"
+url = "mailto:sarahblommaertkassem@gmail.com"
+
+[[menu.main]]
+  name = "Home"
+  identifier = "home"
+  weight = 100
+  url = "/"
+
+  [[menu.main]]
+  name = "Posts"
+  weight = 200
+  identifier = "posts"
+  url = "/posts/"
+
+  [[menu.main]]
+  name = "About"
+  weight = 300
+  identifier = "about"
+  url = "/about/"
+  
+  #google site verification
+  googleSiteVerify = "ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789"
+  
+  #SEO to allow search engine crawlers to access to any page
+  enableRobotsTXT=true
